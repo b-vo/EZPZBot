@@ -3,6 +3,10 @@ An easy starting place to make a bot based on js-tale (https://github.com/alta-v
 
 ## Setup
 
+### General Setup
+
+Install node.js (https://nodejs.org/en/).
+
 ### Dependencies
 Firstly, createa a new folder for you project and add the EZPZBot files in this project. Then setup a project and install required dependencies as per the js-tale project (https://github.com/alta-vr/js-tale) as below:
 
