@@ -4,14 +4,11 @@ An easy starting place to make a bot based on js-tale (https://github.com/alta-v
 ## Setup
 
 ### Dependencies
-Firstly, setup a project and install required dependencies as per the js-tale project (https://github.com/alta-vr/js-tale).
+Firstly, createa a new folder for you project and add the EZPZBot files in this project. Then setup a project and install required dependencies as per the js-tale project (https://github.com/alta-vr/js-tale) as below:
 
 `npm init`
-
 `npm i js-tale`
-
 `npm i typescript --save-dev`
-
 `npm i ts-node --save-dev`
 
 `npm i discord.js`
@@ -21,7 +18,7 @@ Firstly, setup a project and install required dependencies as per the js-tale pr
 In `package.json`, add a script called `start`:
 `"start": "ts-node ."`
 
-Setup your discord bot and get the token. See: https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js
+Setup your discord bot and get the token. Do step 1 of: https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js
 
 ### Config
 You will need to configure client id and secret somewhere that won't be checked into git.
