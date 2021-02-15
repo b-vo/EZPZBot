@@ -25,8 +25,7 @@ In `package.json`, add a script called `start`:
 Setup your discord bot and get the token. Do step 1 of: https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js
 
 ### Config
-You will need to configure client id and secret somewhere that won't be checked into git.
-For instance, create a file called `config.js`, and add `config.js` to the `.gitignore`.
+If you plan on making your code public or checking it into git: make sure that you hide config.js from git. You can do this by making a text file called .gitignore and adding a line that says `config.js`.
 
 This file should contain:
 ```
